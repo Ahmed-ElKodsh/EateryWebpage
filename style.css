@@ -15,8 +15,8 @@ li, a, button {
 }
 
 .container {
-  max-width: 1600px;
-  height: 700px;
+  max-width: 1150px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@ li, a, button {
 /******************/
 /* Header */
 header {
-  height: 1000px;
+  height: 610px;
   display: block;
   position: relative;
   overflow: hidden;
@@ -64,8 +64,8 @@ header::after {
 .navbar {
   color: #fff;
   height: 100px;
-  font-size: 20px;
-  padding-top: 30px;
+  font-size: 14px;
+  padding-top: 5px;
   display: flex;
   align-items: center;
 }
@@ -73,43 +73,42 @@ header::after {
 .logo {
   cursor: pointer;
   padding-bottom: 10px;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .navbar .navbar-list {
   list-style: none;
   text-transform: uppercase;
-  margin-left: 150px;
-  margin-right: 10px;
+  margin-left: 100px;
 }
 
 .navbar .navbar-list li {
   display: inline-block;
-  padding: 0 25px;
+  padding: 0 20px;
 }
 
 .navbar .navbar-list a {
   color: #fff;
-  transition: all 0.4s ease 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .navbar .navbar-list a:hover {
-  color: red;
+  color: rgb(206, 94, 94);
 }
 
 
 /* As adjacent list*/
 .navbar .right-list {
-  margin-left: 150px;
+  margin-left: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .navbar .right-list button {
-  padding: 20px 30px;
-  margin-left: 40px;
-  font-size: 20px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  font-size: 15px;
   border: none;
   background-color: rgb(206, 94, 94);
   color: #fff;
@@ -123,18 +122,18 @@ header::after {
 
 /* Slider */
 .slider {
-  margin-top: 250px;
+  margin-top: 150px;
   color: #fff;
 }
 
 .slider div {
-  font-size: 25px;
+  font-size: 17px;
   padding-bottom: 20px;
   letter-spacing: 0.2rem;
 }
 
 .slider p {
-  font-size: 80px;
+  font-size: 50px;
   padding-bottom: 50px;
 }
 
@@ -142,8 +141,8 @@ header::after {
   border:2px solid white;
   background-color: transparent;
   color: #fff;
-  font-size: 20px;
-  padding: 20px 40px;
+  font-size: 17px;
+  padding: 10px 30px;
   transition: background-color .4s ease-in-out;
 }
 
